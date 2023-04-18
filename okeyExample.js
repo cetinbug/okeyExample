@@ -62,7 +62,7 @@ class Player {
         
         pairCards = [...new Set(pairCards)]
 
-        //paircards kısmında çiftler bulunmakta fakat farklı çiftlerde bulunmaktadır. bu kısmı düzeltmek için maalesef zaman ayrılamamıştır
+        //paircards kısmında çiftler bulunmakta fakat farklı çiftlerde bulunmaktadır
 
         bufferCards.forEach(elem => {
             if(pairCards.includes(elem))
